@@ -36,7 +36,7 @@ public class CourseController {
 	  
 	  
 	 courseservice.enrollCourse(name,emailId,courseName);
-	 return "Congratulations! " + name + " your "+ courseName + " Course is Enrolled Successfuly ";
-	  
+	 return "Congratulations! " + name + " your "+ courseName + " Course is Enrolled Successfuly ";  
   }
 }
+
